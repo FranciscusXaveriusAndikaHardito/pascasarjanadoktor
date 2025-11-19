@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doktor Ilmu Lingkungan - Universitas Papua 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        unipa: {
+                            blue: '#005aa7', // Warna dominan akademik
+                            green: '#2f855a', // Representasi lingkungan
+                            dark: '#1a202c',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom style untuk background hero */
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 116, 0.7), rgba(176, 173, 255, 0.6)), url('https://images.unsplash.com/photo-1506362131081-7a78e59dc728?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+            /* Placeholder gambar hutan/papua */
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center gap-3">
+                        <div
+                            class="h-10 w-10 bg-unipa-blue rounded-full flex items-center justify-center text-white font-bold">
+                            UP</div>
+                        <div>
+                            <h1 class="text-lg font-bold text-unipa-blue tracking-wide">PASCASARJANA</h1>
+                            <p class="text-xs text-gray-500 font-semibold">UNIVERSITAS PAPUA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#beranda" class="text-gray-600 hover:text-unipa-blue font-medium transition">Beranda</a>
+                    <a href="#tentang" class="text-gray-600 hover:text-unipa-blue font-medium transition">Tentang</a>
+                    <a href="#kurikulum"
+                        class="text-gray-600 hover:text-unipa-blue font-medium transition">Kurikulum</a>
+                    <a href="#profil" class="text-gray-600 hover:text-unipa-blue font-medium transition">Profil
+                        Lulusan</a>
+                    <a href="#kontak"
+                        class="bg-unipa-blue text-white px-5 py-2 rounded-md hover:bg-blue-700 transition font-medium">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="beranda" class="hero-bg h-screen flex items-center justify-center text-center px-4">
+        <div class="max-w-4xl mx-auto text-white pt-16">
+            <span
+                class="bg-unipa-green px-3 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-4 inline-block">Kurikulum
+                2025</span>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">Program Studi Doktor<br>Ilmu Lingkungan</h1>
+            <p class="text-xl md:text-2xl font-light mb-8 text-gray-200">
+                "Menjadi Program Studi Doktor Ilmu Lingkungan Dari Kawasan Indonesia Timur Yang Unggul Dan Berdaya Saing
+                Global"
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#tentang"
+                    class="bg-white text-unipa-blue px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition">Pelajari
+                    Lebih Lanjut</a>
+                <a href="#kurikulum"
+                    class="border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-unipa-blue transition">Lihat
+                    Kurikulum</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-unipa-dark mb-6 border-l-4 border-unipa-blue pl-4">Latar Belakang
+                        & Identitas</h2>
+                    <p class="text-gray-600 mb-4 text-justify leading-relaxed">
+                        Program Doktor Ilmu Lingkungan bertujuan untuk mengatasi tantangan Papua, wilayah yang memiliki
+                        kepentingan lingkungan yang signifikan. Wilayah ini dikenal karena ekosistemnya yang beragam,
+                        namun menghadapi tantangan degradasi lingkungan dan perubahan iklim.
+                    </p>
+                    <p class="text-gray-600 mb-6 text-justify leading-relaxed">
+                        Kurikulum kami dirancang berbasis OBE (Outcome Based Education) untuk menghasilkan lulusan yang
+                        kompeten dalam mengelola isu lingkungan kompleks dengan pendekatan interdisipliner.
+                    </p>
+
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <h3 class="font-bold text-unipa-blue mb-3">Identitas Program </h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex"><span class="w-40 font-semibold">Gelar Lulusan:</span> Doktor Ilmu
+                                Lingkungan</li>
+                            <li class="flex"><span class="w-40 font-semibold">Akreditasi:</span> Baik (SK BAN-PT No.
+                                1155)</li>
+                            <li class="flex"><span class="w-40 font-semibold">SK Pendirian:</span> 30/KPT/I/2018</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 gap-6">
+                    <div
+                        class="bg-unipa-blue text-white p-8 rounded-xl shadow-lg transform hover:-translate-y-1 transition duration-300">
+                        <h3 class="text-xl font-bold mb-4 flex items-center"><span class="text-2xl mr-2">🎯</span> Visi
+                        </h3>
+                        <p class="italic">"Menjadi Program Studi Doktor Ilmu Lingkungan Dari Kawasan Indonesia Timur
+                            Yang Unggul Dan Berdaya Saing Global"</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 p-8 rounded-xl shadow-lg">
+                        <h3 class="text-xl font-bold mb-4 text-unipa-dark flex items-center"><span
+                                class="text-2xl mr-2">🚀</span> Misi Utama</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600">
+                            <li>Melaksanakan akademik inovatif materi ilmu lingkungan.</li>
+                            <li>Kolaborasi antarinstitusi pengembangan teori lingkungan.</li>
+                            <li>Peningkatan SDM pengelolaan Tanah Papua.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kurikulum" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-unipa-dark">Struktur Kurikulum</h2>
+                <p class="text-gray-600 mt-4">Total Beban Studi: <span class="font-bold text-unipa-blue">44 SKS</span>
+                </p>
+            </div>
+
+            <div class="flex justify-center mb-8" x-data="{ tab: 'regular' }">
+                <div class="bg-white p-1 rounded-full shadow-sm border border-gray-200 inline-flex">
+                    <button onclick="switchTab('regular')" id="btn-regular"
+                        class="px-8 py-2 rounded-full bg-unipa-blue text-white font-bold transition shadow-sm">Jalur
+                        Reguler (R)</button>
+                    <button onclick="switchTab('research')" id="btn-research"
+                        class="px-8 py-2 rounded-full text-gray-600 hover:bg-gray-100 font-bold transition">By Research
+                        (BR)</button>
+                </div>
+            </div>
+
+            <div id="content-regular"
+                class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200 p-6 md:p-10">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6 border-b pb-4">Sebaran Mata Kuliah - Jalur Reguler
+                </h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-bold text-unipa-blue mb-3">Semester I (12 SKS)</h4>
+                        <ul class="space-y-3">
+                            <li class="flex justify-between bg-gray-50 p-3 rounded border-l-4 border-blue-400">
+                                <span>Filsafat Ilmu Lingkungan</span> <span class="font-bold">2 SKS</span></li>
+                            <li class="flex justify-between bg-gray-50 p-3 rounded border-l-4 border-blue-400">
+                                <span>Metodologi Disertasi & Publikasi</span> <span class="font-bold">2 SKS</span></li>
+                            <li class="flex justify-between bg-gray-50 p-3 rounded border-l-4 border-green-400">
+                                <span>Biodiversitas Dan Nonhayati</span> <span class="font-bold">2 SKS</span></li>
+                            <li class="flex justify-between bg-gray-50 p-3 rounded border-l-4 border-green-400">
+                                <span>Pendekatan Sistem Agrokompleks</span> <span class="font-bold">2 SKS</span></li>
+                            <li class="flex justify-between bg-gray-50 p-3 rounded border-l-4 border-green-400">
+                                <span>Ekonomi & Valuasi SDA</span> <span class="font-bold">2 SKS</span></li>
+                            <li class="flex justify-between bg-gray-50 p-3 rounded border-l-4 border-green-400">
+                                <span>Dinamika Sosial Politik & Budaya</span> <span class="font-bold">2 SKS</span></li>
+                        </ul>
+                    </div>
+                    <div class="space-y-6">
+                        <div>
+                            <h4 class="font-bold text-unipa-blue mb-2">Semester II (8 SKS)</h4>
+                            <div class="text-sm text-gray-600">Rancangan Disertasi (4), Ujian Kualifikasi (4).</div>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-unipa-blue mb-2">Semester III (9 SKS)</h4>
+                            <div class="text-sm text-gray-600">Seminar Proposal (3), Publikasi Jurnal Nasional (4),
+                                Penyanggah Ilmiah (2).</div>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-unipa-blue mb-2">Semester IV - VI (15 SKS)</h4>
+                            <div class="text-sm text-gray-600">Publikasi Internasional (5), Seminar Hasil (3), Disertasi
+                                (6), Promosi Doktor (1).</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="content-research"
+                class="hidden bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200 p-6 md:p-10">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6 border-b pb-4">Sebaran Mata Kuliah - By Research</h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-bold text-purple-600 mb-3">Semester I (8 SKS)</h4>
+                        <ul class="space-y-3">
+                            <li class="flex justify-between bg-purple-50 p-3 rounded border-l-4 border-purple-400">
+                                <span>Filsafat Ilmu Lingkungan</span> <span class="font-bold">2 SKS</span></li>
+                            <li class="flex justify-between bg-purple-50 p-3 rounded border-l-4 border-purple-400">
+                                <span>Metodologi Disertasi</span> <span class="font-bold">2 SKS</span></li>
+                            <li class="flex justify-between bg-purple-50 p-3 rounded border-l-4 border-purple-400">
+                                <span>Manuscript Jurnal Nasional</span> <span class="font-bold">2 SKS</span></li>
+                            <li class="flex justify-between bg-purple-50 p-3 rounded border-l-4 border-purple-400">
+                                <span>Manuscript Jurnal Internasional</span> <span class="font-bold">2 SKS</span></li>
+                        </ul>
+                    </div>
+                    <div class="space-y-6">
+                        <div>
+                            <h4 class="font-bold text-purple-600 mb-2">Fokus Riset</h4>
+                            <p class="text-gray-600 text-sm">Jalur ini menekankan pada output publikasi ilmiah
+                                bereputasi sejak semester awal.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-purple-600 mb-2">Semester V (8 SKS)</h4>
+                            <div class="text-sm text-gray-600">Publikasi Ilmiah Internasional Bereputasi (5), Seminar
+                                Hasil (3).</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="profil" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-unipa-dark">Profil Lulusan</h2>
+                <p class="text-gray-600 mt-2">Lulusan kami dipersiapkan untuk berbagai peran strategis.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white border border-gray-200 p-6 rounded-lg hover:shadow-xl transition text-center">
+                    <div class="text-4xl mb-4">🎓</div>
+                    <h3 class="font-bold text-lg mb-2">Pendidik & Peneliti</h3>
+                    <p class="text-sm text-gray-500">Menguasai konsep teoritis dan mengembangkan metode riset
+                        lingkungan.</p>
+                </div>
+                <div class="bg-white border border-gray-200 p-6 rounded-lg hover:shadow-xl transition text-center">
+                    <div class="text-4xl mb-4">🌍</div>
+                    <h3 class="font-bold text-lg mb-2">Konsultan / NGO</h3>
+                    <p class="text-sm text-gray-500">Mampu memecahkan dan merekomendasikan pengelolaan lingkungan.</p>
+                </div>
+                <div class="bg-white border border-gray-200 p-6 rounded-lg hover:shadow-xl transition text-center">
+                    <div class="text-4xl mb-4">⚙️</div>
+                    <h3 class="font-bold text-lg mb-2">Praktisi</h3>
+                    <p class="text-sm text-gray-500">Menguasai prinsip pengelolaan dan mampu membuat keputusan
+                        strategis.</p>
+                </div>
+                <div class="bg-white border border-gray-200 p-6 rounded-lg hover:shadow-xl transition text-center">
+                    <div class="text-4xl mb-4">🏛️</div>
+                    <h3 class="font-bold text-lg mb-2">Eksekutif</h3>
+                    <p class="text-sm text-gray-500">Mampu merencanakan program pembangunan berwawasan lingkungan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="kontak" class="bg-unipa-dark text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">PASCASARJANA UNIPA</h3>
+                    <p class="text-gray-400 text-sm">
+                        Mencetak doktor ilmu lingkungan yang unggul untuk Tanah Papua dan dunia.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Kontak Kami</h3>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li>📍 Jl. Gunung Salju Amban, Manokwari </li>
+                        <li>📞 +62 812 4830 507 </li>
+                        <li>✉️ Prodi.s3lingkungan@gmail.com </li>
+                        <li>🌐 https://s3il.pasca.unipa.ac.id </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Tautan Cepat</h3>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li><a href="#" class="hover:text-white">Pendaftaran</a></li>
+                        <li><a href="#" class="hover:text-white">Jurnal Penelitian</a></li>
+                        <li><a href="#" class="hover:text-white">Staf Pengajar</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-500">
+                &copy; 2025 Pascasarjana Universitas Papua. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function switchTab(tabName) {
+            const regContent = document.getElementById('content-regular');
+            const resContent = document.getElementById('content-research');
+            const btnReg = document.getElementById('btn-regular');
+            const btnRes = document.getElementById('btn-research');
+
+            if (tabName === 'regular') {
+                regContent.classList.remove('hidden');
+                resContent.classList.add('hidden');
+
+                btnReg.classList.add('bg-unipa-blue', 'text-white');
+                btnReg.classList.remove('text-gray-600', 'hover:bg-gray-100');
+
+                btnRes.classList.remove('bg-unipa-blue', 'text-white');
+                btnRes.classList.add('text-gray-600', 'hover:bg-gray-100');
+            } else {
+                regContent.classList.add('hidden');
+                resContent.classList.remove('hidden');
+
+                btnRes.classList.add('bg-unipa-blue', 'text-white');
+                btnRes.classList.remove('text-gray-600', 'hover:bg-gray-100');
+
+                btnReg.classList.remove('bg-unipa-blue', 'text-white');
+                btnReg.classList.add('text-gray-600', 'hover:bg-gray-100');
+            }
+        }
+    </script>
+</body>
+
+</html>
